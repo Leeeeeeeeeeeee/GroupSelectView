@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoLineAndCenterLayout">
+        <attr name="autoCenter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GroupSelectView">
+        <attr name="groupNum" format="integer" />
+        <attr name="athleteEachGroup" format="integer" />
+        <attr name="column" format="enum|integer">
+            <enum name="auto" value="-1" />
+        </attr>
+    </declare-styleable>
+</resources>
